@@ -24,12 +24,12 @@ export default function Slider() {
 
   return (
     <>
-      <div className="relative w-full glide-04 md:px-28 mx-auto my-5">
+      <div className="relative w-full glide-04 mx-auto my-5">
         {/*    <!-- Slides --> */}
         <div className="overflow-hidden" data-glide-el="track">
           <div className="whitespace-no-wrap flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform] relative flex w-full overflow-hidden p-0">
             <div className="bg-[#262833] flex flex-col md:flex-row">
-              <div className="py-10 px-10 md:px-28">
+              <div className="py-10 px-10">
                 <h2 className="text-white text-3xl font-bold">
                   Industries We Serve
                 </h2>
