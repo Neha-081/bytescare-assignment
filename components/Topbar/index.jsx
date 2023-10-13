@@ -56,7 +56,7 @@ export default function Topbar() {
           </section>
         </div>
       </div>
-      <p className="text-primaryBlack font-bold text-xl text-center tracking-wider">
+      <p className="text-primaryBlack font-bold text-xl text-center">
         Trusted by 100+ Clients
       </p>
 
