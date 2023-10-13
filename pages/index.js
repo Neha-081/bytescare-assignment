@@ -5,6 +5,7 @@ import Topbar from '@/components/Topbar'
 import Slider from '@/components/Slider'
 import GridBox from '@/components/GridBox'
 import Industries from './industries'
+import Services from '@/components/Services'
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <Topbar />
       <Slider />
       <Industries />
+      <Services />
     </main>
   )
 }
