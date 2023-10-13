@@ -1,0 +1,8 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle opacity="0.1" cx="40" cy="40" r="40" fill="#FFA300"/>
+<circle cx="37" cy="37" r="15.5" stroke="#FFA300" stroke-width="3"/>
+<path d="M48.5714 48.5714L60 60" stroke="#FFA300" stroke-width="3" stroke-linecap="round"/>
+<path d="M35 33.0001H39V45.0001H35V33.0001Z" fill="#FFA300"/>
+<path d="M28 37H32V45H28V37Z" fill="#FFA300"/>
+<path d="M42 29H46V45.0004H42V29Z" fill="#FFA300"/>
+</svg>

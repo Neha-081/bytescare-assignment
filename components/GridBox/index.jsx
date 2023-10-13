@@ -7,7 +7,7 @@ export default function GridBox({ gridArray }) {
       {gridArray.map((person) => (
         <li
           key={person.email}
-          className="col-span-1 lg:h-[250px] lg:w-[300px] flex flex-col text-center bg-white rounded-lg shadow-lg divide-y divide-gray-200"
+          className="col-span-1 lg:h-[300px] lg:w-[300px] flex flex-col text-center bg-white rounded-lg shadow-lg divide-y divide-gray-200"
         >
           <div className="flex-1 flex flex-col p-8">
             <img
