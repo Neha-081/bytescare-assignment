@@ -11,10 +11,10 @@ export default function Services() {
 
   return (
     <>
-      <div className="relative w-full glide-04 mx-auto my-10">
+      <div className="relative w-full mx-auto my-10">
         <div className="overflow-hidden" data-glide-el="track">
           <div className="whitespace-no-wrap flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform] relative flex w-full overflow-hidden p-0">
-            <div className="bg-[#262833] flex flex-col md:flex-row-reverse">
+            <div className="bg-[#262833] flex flex-col md:flex-row-reverse w-full">
               <div className="py-10 px-10">
                 <h2 className="text-white text-3xl font-bold text-right">
                 Products & Services

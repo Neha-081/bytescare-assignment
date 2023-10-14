@@ -1,33 +1,11 @@
-import React, { useEffect } from "react";
-import Glide from "@glidejs/glide";
-
 export default function Slider() {
-  useEffect(() => {
-    const slider = new Glide(".glide-04", {
-      type: "slider",
-      focusAt: "center",
-      perView: 1,
-      autoplay: 3500,
-      animationDuration: 700,
-      gap: 0,
-      classes: {
-        nav: {
-          active: "[&>*]:bg-wuiSlate-700",
-        },
-      },
-    }).mount();
-
-    return () => {
-      slider.destroy();
-    };
-  }, []);
 
   return (
     <>
-      <div className="relative w-full glide-04 mx-auto my-5">
+      <div className="relative w-full mx-auto my-5">
         {/*    <!-- Slides --> */}
         <div className="overflow-hidden" data-glide-el="track">
-          <div className="whitespace-no-wrap flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform] relative flex w-full overflow-hidden p-0">
+          <div className="whitespace-no-wrap flex-no-wrap relative flex w-full overflow-hidden p-0">
             <div className="bg-[#262833] flex flex-col md:flex-row">
               <div className="py-10 px-10">
                 <h2 className="text-white text-3xl font-bold">
