@@ -13,7 +13,7 @@ export default function GridBox({ gridArray }) {
             <img
               className="w-16 h-16 flex-shrink-0 mx-auto rounded-full"
               src={person.imageUrl}
-              alt=""
+              alt="grid-img"
             />
             <h3 className="mt-6 text-primaryBlack text-sm font-medium">
               {person.name}

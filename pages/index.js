@@ -4,6 +4,7 @@ import Slider from '@/components/Slider'
 import Services from '@/components/Services'
 import Industries from '@/components/Industries'
 import Clients from '@/components/Client'
+import Platform from '@/components/Platform'
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <Industries />
       <Services />
       <Clients />
+      <Platform />
     </main>
   )
 }
