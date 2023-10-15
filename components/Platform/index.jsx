@@ -26,7 +26,7 @@ export default function Platform() {
           >
             <div className="flex-1 flex flex-col p-8">
               <img
-                className="flex-shrink-0 mx-auto rounded-full"
+                className="flex-shrink-0 mx-auto"
                 src={platform.imageUrl}
                 alt="platform media"
               />

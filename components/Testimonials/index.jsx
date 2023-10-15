@@ -7,7 +7,7 @@ export default function Testimonials() {
       type: "carousel",
       focusAt: "center",
       perView: 3,
-    //   autoplay: 3500,
+      //   autoplay: 3500,
       animationDuration: 700,
       gap: 24,
       classNames: {
@@ -41,35 +41,68 @@ export default function Testimonials() {
         {/*    <!-- Slides --> */}
         <div className="overflow-hidden" data-glide-el="track">
           <ul className="whitespace-no-wrap flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform] relative flex w-full overflow-hidden p-0">
-            <li className="shadow-lg p-2">
-            {/* <img
+            <li className="shadow-xl bg-[#f8f8f8] bg-lightGray px-2 my-12 relative max-w-[450px]">
+              <img
                 src="/assets/expresslogo.svg"
-                className="m-auto max-h-20 w-20 max-w-full roundedd-full absolute"
-              /> */}
-              <img
-                src="/assets/express.svg"
-                className="m-auto max-h-80 w-80 max-w-full"
+                className="m-auto max-h-20 w-20 max-w-full rounded-full absolute -top-[45px] left-[180px]"
               />
-            <p className="text-primaryGray text-xs my-2">They have an exceptional understanding of Piracy & Cyber Investigations. They save costs in technical & legal operations</p>
-              <p className="text-primary text-sm my-2">Ajay Karakoti</p>
+              <div className="mt-14">
+                <img
+                  src="/assets/express.svg"
+                  className="m-auto h-5 max-w-full"
+                />
+                <p className="text-primaryGray text-xs my-4 mb-14">
+                  Bytescare offers solutions to detect and control the piracy of
+                  your content from fraudulent websites and content pirates.
+                  Bytescare solutions are like watchmen of Digital News
+                  Publishers and we highly recommend their services
+                </p>
+                <p className="text-primary text-sm my-4 absolute bottom-0">
+                  Ajay Karakoti
+                </p>
+              </div>
             </li>
-            <li>
+            <li className="shadow-xl bg-[#f8f8f8] px-2 my-12 relative max-w-[450px]">
               <img
-                src="https://Tailwindmix.b-cdn.net/carousel/carousel-image-02.jpg"
-                className="m-auto max-h-full w-full max-w-full"
+                src="/assets/geekslogo.svg"
+                className="m-auto max-h-20 w-20 max-w-full rounded-full absolute -top-[45px] left-[180px]"
               />
+              <div className="mt-14">
+                <img
+                  src="/assets/geeks.svg"
+                  className="m-auto h-10 max-w-full"
+                />
+                <p className="text-primaryGray text-xs my-4 mb-14">
+                  “We have found the entire Bytescare team to be technically
+                  competent, enthusiastic, professional, easy to work with, and
+                  can clearly understand our business requirements and help us
+                  in the best possible manner.” are like watchmen of Digital
+                  News Publishers and we highly recommend their services
+                </p>
+                <p className="text-primary text-sm my-4 absolute bottom-0">
+                  Bhavook Khanna
+                </p>
+              </div>
             </li>
-            <li>
+            <li className="shadow-xl bg-[#f8f8f8] px-2 my-12 relative max-w-[450px]">
               <img
-                src="https://Tailwindmix.b-cdn.net/carousel/carousel-image-03.jpg"
-                className="m-auto max-h-full w-full max-w-full"
+                src="/assets/drishtilogo.svg"
+                className="m-auto max-h-20 w-20 max-w-full rounded-full absolute -top-[45px] left-[180px]"
               />
-            </li>
-            <li>
-              <img
-                src="https://Tailwindmix.b-cdn.net/carousel/carousel-image-04.jpg"
-                className="m-auto max-h-full w-full max-w-full"
-              />
+              <div className="mt-14">
+                <img
+                  src="/assets/drishti.svg"
+                  className="m-auto h-10 max-w-full"
+                />
+                <p className="text-primaryGray text-xs my-4 mb-14">
+                  They have an exceptional understanding of Piracy & Cyber
+                  Investigations. They save costs in technical & legal
+                  operations
+                </p>
+                <p className="text-primary text-sm my-4 absolute bottom-0">
+                  Ajay Karakoti
+                </p>
+              </div>
             </li>
           </ul>
         </div>
@@ -122,7 +155,6 @@ export default function Testimonials() {
           </button>
         </div>
       </div>
-      {/*<!-- End Carousel with controls outside --> */}
     </>
   );
 }
