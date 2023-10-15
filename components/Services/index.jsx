@@ -1,13 +1,22 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Accordion from "../Accordion";
 
 export default function Services() {
-
-    const data = [
-        {title: 'Pre-Piracy Solutions', desc: 'It is a prevention phase that comes into play before publishing the content. It helps creators to prevent their original content from piracy attacks and publish authorized, encrypted, and original content. Pre-Piracy solutions include watermarking and digital rights management, evaluating existing technologies for loopholes, implementing extra measures to stop leakages within the team, etc.'},
-        {title: 'Post-Piracy Solutions', desc: 'It is a prevention phase that comes into play before publishing the content. It helps creators to prevent their original content from piracy attacks and publish authorized, encrypted, and original content. Pre-Piracy solutions include watermarking and digital rights management, evaluating existing technologies for loopholes, implementing extra measures to stop leakages within the team, etc.'},
-        {title: 'Brand & Reputation Management', desc: 'It is a prevention phase that comes into play before publishing the content. It helps creators to prevent their original content from piracy attacks and publish authorized, encrypted, and original content. Pre-Piracy solutions include watermarking and digital rights management, evaluating existing technologies for loopholes, implementing extra measures to stop leakages within the team, etc.'}
-    ]
+  // Data for the accordion component
+  const data = [
+    {
+      title: 'Pre-Piracy Solutions',
+      desc: 'It is a prevention phase that comes into play before publishing the content. It helps creators to prevent their original content from piracy attacks and publish authorized, encrypted, and original content. Pre-Piracy solutions include watermarking and digital rights management, evaluating existing technologies for loopholes, implementing extra measures to stop leakages within the team, etc.'
+    },
+    {
+      title: 'Post-Piracy Solutions',
+      desc: 'It is a prevention phase that comes into play before publishing the content. It helps creators to prevent their original content from piracy attacks and publish authorized, encrypted, and original content. Pre-Piracy solutions include watermarking and digital rights management, evaluating existing technologies for loopholes, implementing extra measures to stop leakages within the team, etc.'
+    },
+    {
+      title: 'Brand & Reputation Management',
+      desc: 'It is a prevention phase that comes into play before publishing the content. It helps creators to prevent their original content from piracy attacks and publish authorized, encrypted, and original content. Pre-Piracy solutions include watermarking and digital rights management, evaluating existing technologies for loopholes, implementing extra measures to stop leakages within the team, etc.'
+    }
+  ];
 
   return (
     <>
@@ -17,10 +26,11 @@ export default function Services() {
             <div className="bg-[#262833] flex flex-col md:flex-row-reverse w-full">
               <div className="py-10 px-10">
                 <h2 className="text-white text-3xl font-bold text-right">
-                Products & Services
+                  Products & Services
                 </h2>
                 <div className="my-3">
-                    <Accordion data={data} />
+                  {/* Render the Accordion component with data */}
+                  <Accordion data={data} />
                 </div>
               </div>
               <img

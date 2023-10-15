@@ -1,4 +1,5 @@
 export default function Platform() {
+  // Data for the platforms you serve
   const platforms = [
     { title: "Marketplaces", imageUrl: "/assets/marketplace.svg" },
     { title: "Social Media", imageUrl: "/assets/social.svg" },
@@ -9,10 +10,11 @@ export default function Platform() {
     { title: "Video Platforms", imageUrl: "/assets/platform.svg" },
     { title: "Cyberlockers", imageUrl: "/assets/cyber.svg" },
   ];
+
   return (
     <div className="my-5 mx-2">
       <h1 className="text-primaryBlack text-center text-3xl font-bold my-12">
-        <span className="text-primary">Platforms </span> We Serve
+        <span className="text-primary">Platforms</span> We Serve
       </h1>
 
       <ul
@@ -21,7 +23,7 @@ export default function Platform() {
       >
         {platforms.map((platform) => (
           <li
-            key={platform.title}
+            key={platform.title} // Using the title as a unique key
             className="col-span-1 flex flex-col text-center bg-white shadow-md divide-y divide-gray-200"
           >
             <div className="flex-1 flex flex-col p-8">

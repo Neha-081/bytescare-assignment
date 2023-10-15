@@ -1,4 +1,6 @@
-/* This example requires Tailwind CSS v2.0+ */
+import React from "react";
+
+// Define the navigation links for the footer
 const navigation = {
   solutions: [
     { name: "Marketing", href: "#" },
@@ -14,18 +16,17 @@ const navigation = {
   ],
 };
 
+// Footer component
 export default function Footer() {
   return (
-    <footer
-      className="bg-primaryBlack text-sm"
-      aria-labelledby="footer-heading"
-    >
+    <footer className="bg-primaryBlack text-sm" aria-labelledby="footer-heading">
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
-      <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-        <div className="xl:grid xl:grid-cols-3 xl:gap-8">
+      <div className="mx-auto">
+        <div className="xl:grid xl:grid-cols-3 xl:gap-8 lg:px-8 px-4 sm:px-6 py-12 lg:py-16">
           <div className="space-y-8 xl:col-span-1">
+            {/* Logo and contact information */}
             <img className="h-8" src="/assets/logowhite.svg" alt="bytescare" />
             <p className="text-white">
               2055 Limestone Rd, STE 200-C, Wilmington, New Castle, DE 19808
@@ -35,6 +36,7 @@ export default function Footer() {
           <div className="mt-12 grid grid-cols-2 gap-8 xl:mt-0 xl:col-span-2">
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
+                {/* Solutions section */}
                 <h3 className="text-sm font-semibold tracking-wider uppercase">
                   Solutions
                 </h3>
@@ -49,6 +51,7 @@ export default function Footer() {
                 </ul>
               </div>
               <div className="mt-12 md:mt-0">
+                {/* Support section */}
                 <h3 className="text-sm font-semibold tracking-wider uppercase">
                   Support
                 </h3>
@@ -65,6 +68,7 @@ export default function Footer() {
             </div>
             <div className="">
               <div>
+                {/* Join Our Company section */}
                 <h3 className="text-sm font-semibold tracking-wider uppercase">
                   Join Our Company
                 </h3>
@@ -97,7 +101,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="mt-12 border-t border-gray-200 pt-8">
+        <div className="mt-12 py-4 bg-[#46505a] px-2">
           <p className="xl:text-center">
             &copy; Copyright 2022 Bytescare Inc. All rights reserved
           </p>

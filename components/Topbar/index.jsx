@@ -11,7 +11,7 @@ export default function Topbar() {
   return (
     <div className="bg-white tracking-wide">
       <div className="max-w-2xl mx-auto py-8 px-4 sm:px-6 lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:gap-x-8">
-        <h2 className="text-primaryBlack font-bold text-[35px] mb-12">
+        <h2 className="text-primaryBlack font-bold text-[32px] mb-12">
           Let’s Fight <span className="text-primary">Piracy</span> Together with
           our Anti Piracy Protection Services!
         </h2>
@@ -68,7 +68,7 @@ export default function Topbar() {
               className="mx-auto grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-4 md:gap-x-6 lg:max-w-5xl lg:gap-x-8 lg:gap-y-12 xl:grid-cols-6"
             >
               {people.map((person, index) => (
-                <div className="space-y-4">
+                <div className="space-y-4" key={index}>
                   <img
                     className="mx-auto h-20 w-20 rounded-full lg:w-24 lg:h-24"
                     src={person.imageUrl}

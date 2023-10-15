@@ -7,7 +7,7 @@ export default function Testimonials() {
       type: "carousel",
       focusAt: "center",
       perView: 3,
-      //   autoplay: 3500,
+        autoplay: 3500,
       animationDuration: 700,
       gap: 24,
       classNames: {
