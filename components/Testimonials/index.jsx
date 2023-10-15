@@ -57,7 +57,7 @@ export default function Testimonials() {
                   Bytescare solutions are like watchmen of Digital News
                   Publishers and we highly recommend their services
                 </p>
-                <p className="text-primary text-sm my-4 absolute bottom-0">
+                <p className="text-primary text-sm my-4 absolute font-medium bottom-0">
                   Ajay Karakoti
                 </p>
               </div>
@@ -79,7 +79,7 @@ export default function Testimonials() {
                   in the best possible manner.” are like watchmen of Digital
                   News Publishers and we highly recommend their services
                 </p>
-                <p className="text-primary text-sm my-4 absolute bottom-0">
+                <p className="text-primary text-sm my-4 absolute font-medium bottom-0">
                   Bhavook Khanna
                 </p>
               </div>
@@ -99,7 +99,7 @@ export default function Testimonials() {
                   Investigations. They save costs in technical & legal
                   operations
                 </p>
-                <p className="text-primary text-sm my-4 absolute bottom-0">
+                <p className="text-primary text-sm my-4 absolute font-medium bottom-0">
                   Ajay Karakoti
                 </p>
               </div>

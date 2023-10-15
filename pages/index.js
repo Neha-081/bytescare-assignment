@@ -7,6 +7,7 @@ import Clients from '@/components/Client'
 import Platform from '@/components/Platform'
 import Testimonials from '@/components/Testimonials'
 import Footer from '@/components/Footer'
+import RequestDemo from '@/components/RequestDemo'
 
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
       <Clients />
       <Platform />
       <Testimonials />
+      <RequestDemo />
       <Footer />
     </main>
   )

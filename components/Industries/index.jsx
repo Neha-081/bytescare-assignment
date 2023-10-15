@@ -30,7 +30,7 @@ const gridArray = [
   },
 ];
 
-const Industries = () => {
+export default function Industries() {
   return (
     <div className="text-center my-10 md:mx-[200px] mx-5">
       <p className="text-primaryGray">Why BYTESCARE?</p>
@@ -61,4 +61,3 @@ const Industries = () => {
   );
 };
 
-export default Industries;
